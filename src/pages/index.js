@@ -8,7 +8,6 @@ import {useState} from "react";
 
 export default function Home({countries}) {
     const [keyword, setKeyword] = useState("");
-    console.log(countries);
     const onInputChange = (value) => {
         setKeyword(value);
     }
