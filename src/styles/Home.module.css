@@ -3,6 +3,22 @@
     color: var(--text-color);
     font-weight: bold;
 }
+
 .inputContainer {
     margin-bottom: 40px;
+}
+
+@media screen and (min-width: 720px) {
+    .inputContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .counts {
+        flex: 1;
+    }
+
+    .input {
+        flex: 2;
+    }
 }
